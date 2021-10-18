@@ -1,0 +1,29 @@
+.color-panel {
+  height: 80px;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 270px;
+}
+
+.color-panel .color {
+  height: 20px;
+  width: 20px;
+  margin: 2px;
+  transition: 0.3s;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  border: 1px solid #333;
+}
+
+.color-panel .color:hover {
+  transform: translateY(-3px);
+}
+
+.color-selected {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 0.5rem;
+  border: 3px solid #333;
+}

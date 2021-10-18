@@ -1,0 +1,27 @@
+/*! CSS Imports 📲*/
+@import "./styles/colorpanel.css";
+@import "./styles/content.css";
+@import "./styles/menubar.css";
+@import "./styles/toolbox.css";
+
+/* Basic Styles 🎨*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  height: 100%;
+  background-color: hsl(0, 0%, 95%);
+  margin: 0;
+  font-size: 12px;
+}
+
+#app {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}

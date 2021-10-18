@@ -1,0 +1,35 @@
+.toolbox {
+  width: 70px;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.button {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.2s;
+  padding: 5px;
+  box-sizing: border-box;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.button img {
+  width: 100%;
+}
+
+.button:hover {
+  background-color: white;
+  box-shadow: 0 5px 5px #0000001a;
+  transform: translateY(-1.2px);
+  transition: all 0.1s;
+}
+
+.button:active {
+  transform: translateY(0px);
+  opacity: 0.8;
+}

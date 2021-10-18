@@ -1,0 +1,23 @@
+.content {
+  display: flex;
+  flex: 1;
+  height: 100%;
+}
+
+.canvas {
+  /* flex: 1; */
+  padding: 5px;
+  border: 0.1rem solid #333;
+  border-radius: 1rem;
+}
+
+.canvas .canvas-actual {
+  cursor: crosshair;
+  background-color: white;
+}
+
+.canvas .canvas-overlay {
+  position: absolute;
+  transform: translateX(-100%);
+  pointer-events: none;
+}
